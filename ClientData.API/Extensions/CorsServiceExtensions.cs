@@ -16,7 +16,7 @@ namespace ClientData.API.Extensions
                 options.AddPolicy(MyAllowSpecificOrigins,
                    builder =>
                    {
-                       builder.WithOrigins("http://localhost:4200").AllowAnyHeader().AllowAnyMethod();
+                       builder.WithOrigins("http://103.228.144.82/OurProject2021").AllowAnyHeader().AllowAnyMethod();
                    });
             });
         }

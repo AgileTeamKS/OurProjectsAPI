@@ -26,9 +26,5 @@
     </Content>
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="ProjectDocuments\" />
-  </ItemGroup>
-
 
 </Project>
